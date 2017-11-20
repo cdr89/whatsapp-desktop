@@ -1,11 +1,8 @@
 {
   "name": "whatsapp-desktop",
-  "version": "1.0.0",
+  "version": "1.0",
   "description": "Whatsapp desktop",
   "main": "main.js",
-  "dependencies": {
-    "pretty-bytes": "^2.0.1"
-  },
   "devDependencies": {
     "electron": "^1.4.3",
     "electron-packager": "^8.1.0"
@@ -13,9 +10,9 @@
   "scripts": {
     "start": "electron main.js",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/png/194x194.png --prune=true --out=release-builds",
-    "package-win": "electron-packager . whatsapp-desktop --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/png/194x194.png --prune=true --out=release-builds --version-string.CompanyName=\"Whatsapp\" --version-string.FileDescription=\"Whatsapp desktop\" --version-string.ProductName=\"Whatsapp desktop\"",    
+    "package-win": "electron-packager . whatsapp-desktop --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/png/194x194.png --prune=true --out=release-builds --version-string.FileDescription=\"Whatsapp desktop\" --version-string.ProductName=\"Whatsapp desktop\"",    
     "package-linux": "electron-packager . whatsapp-desktop --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/icons/png/194x194.png --prune=true --out=release-builds"
   },
-  "author": "",
+  "author": "Domenico Rosario Caldesi",
   "license": "ISC"
 }
