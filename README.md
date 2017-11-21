@@ -37,3 +37,14 @@ Package the application for Mac OS environment:
 ```bash
 npm run package-mac
 ```
+
+## References
+https://tutorialzine.com/2015/12/creating-your-first-desktop-app-with-html-js-and-electron
+
+https://www.christianengvall.se/electron-packager-tutorial/
+
+https://docs.npmjs.com/getting-started/installing-node
+
+https://discuss.atom.io/t/cannot-find-module-app/28774
+
+https://stackoverflow.com/questions/38400604/node-js-electron-prebuilt-error-cannot-find-module-browser-window-windows-10
