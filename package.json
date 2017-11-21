@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-desktop",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Whatsapp desktop",
   "main": "main.js",
   "devDependencies": {
