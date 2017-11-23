@@ -39,6 +39,9 @@ npm run package-mac
 ```
 
 ## References
+
+https://electronjs.org/docs/api
+
 https://tutorialzine.com/2015/12/creating-your-first-desktop-app-with-html-js-and-electron
 
 https://www.christianengvall.se/electron-packager-tutorial/
